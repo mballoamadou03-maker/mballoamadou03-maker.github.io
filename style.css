@@ -29,3 +29,15 @@
   color: #aaa;
   margin-top: 5px;
 }
+.project-card img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  margin-top: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.project-card img:hover {
+  transform: scale(1.05);
+}
