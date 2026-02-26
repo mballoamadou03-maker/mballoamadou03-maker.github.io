@@ -18,3 +18,14 @@
   transform: translateY(-10px);
   box-shadow: 0 0 30px rgba(0, 212, 255, 0.8);
 }
+.project-img {
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.img-caption {
+  font-size: 0.9em;
+  color: #aaa;
+  margin-top: 5px;
+}
