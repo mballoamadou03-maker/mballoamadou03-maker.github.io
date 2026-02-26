@@ -61,6 +61,20 @@ ul {
 </section>
 <section>
   <h2>🚀 Projets</h2>
+<section>
+  <h2>🛠 Compétences techniques</h2>
+
+  <div class="skills">
+    <div class="skill">Wireshark</div>
+    <div class="skill">Nmap</div>
+    <div class="skill">Linux</div>
+    <div class="skill">Packet Tracer</div>
+    <div class="skill">Metasploit (bases)</div>
+    <div class="skill">TCP/IP</div>
+    <div class="skill">DNS</div>
+    <div class="skill">HTTP</div>
+  </div>
+</section>
 
   <div class="project-card">
     <h3>Analyse de trafic réseau – Wireshark</h3>
@@ -97,6 +111,25 @@ ul {
 .project-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.skill {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(5px);
+  transition: 0.3s;
+}
+
+.skill:hover {
+  background: #00d4ff;
+  color: black;
 }
 </section>
 <section class="card">
